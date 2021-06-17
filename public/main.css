@@ -1,0 +1,45 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+.container { 
+    padding: 10px; 
+}
+
+h1 { 
+    padding-top: 12px; 
+} 
+.btn-style { 
+    padding: 5px; 
+    margin-bottom: 10px;
+    text-decoration: none; 
+    background-color: darkgray; 
+    color: white; 
+    border-radius: 5px; 
+} 
+ulli { 
+    list-style: none; 
+}
+nav { 
+    background-color: lightgray; 
+    padding: 10px15px; 
+    display: flex; 
+    align-content: center; 
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+navul { 
+    display: flex; 
+    justify-content: space-around; 
+} 
+navulli { 
+    padding-left: 20px; 
+    list-style: none; 
+} 
+.peopleulli { 
+    padding-left: 20px; 
+    list-style: none; 
+} 
