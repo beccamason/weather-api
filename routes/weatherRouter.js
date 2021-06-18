@@ -3,11 +3,11 @@ const router = express.Router();
 
 const getWeather = require('../lib/getWeather');
 
-router.get("/weather", (req, res) => {
+router.get("/", (req, res) => {
     res.render("weather");
 });
 
-router.post("/weather", async(req, res) => {
+router.post("/", async(req, res) => {
     let location = req.body.location;
     let countryCode = req.body.countryCode;
     let data = await getWeather(location, countryCode);
